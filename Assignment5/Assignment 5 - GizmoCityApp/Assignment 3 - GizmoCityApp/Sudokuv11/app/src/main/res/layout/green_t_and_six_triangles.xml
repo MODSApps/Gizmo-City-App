@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/puzzlesbackground">
+
+    <Button
+        android:id="@+id/settings_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_label"
+        android:background="#00000000"
+        android:textSize="20.5sp"
+        android:textColor="#2f2f2f"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="37dp"
+        android:layout_marginBottom="31dp" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_label"
+        android:background="#00000000"
+        android:textSize="20.5sp"
+        android:textColor="#2f2f2f"
+        android:layout_alignBottom="@+id/logo"
+        android:layout_alignLeft="@+id/home_button" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo"
+        android:src="@drawable/mods_arch2"
+        android:layout_alignBottom="@+id/recent_button"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/recent_button" />
+    <Button
+        android:id="@+id/recent_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recent_label"
+        android:background="#00000000"
+        android:textSize="20.5sp"
+        android:textColor="#2f2f2f"
+        android:layout_marginTop="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/settings_button" />
+
+    <Button
+        android:id="@+id/home_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_label"
+        android:background="#00000000"
+        android:textSize="20.5sp"
+        android:textColor="#2f2f2f"
+        android:layout_marginLeft="31dp"
+        android:layout_alignTop="@+id/settings_button"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/map_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/map_label"
+        android:background="#00000000"
+        android:textSize="20.5sp"
+        android:textColor="#2f2f2f"
+        android:layout_alignTop="@+id/settings_button"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/green_t_image_button"
+        android:src="@drawable/greentbutton"
+        android:background="@android:color/transparent"
+        android:gravity="left"
+        android:layout_marginTop="287dp"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:onClick="clickGreenT" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/six_triangles_image_button"
+        android:src="@drawable/sixtrianglesbutton"
+        android:background="@android:color/transparent"
+        android:gravity="left"
+        android:layout_marginTop="107dp"
+        android:layout_below="@+id/green_t_image_button"
+        android:layout_centerHorizontal="true"
+        android:onClick="clickSixTriangles"/>
+
+</RelativeLayout>

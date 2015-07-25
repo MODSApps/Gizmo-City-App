@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ! Excerpted from "Hello, Android",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material, 
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose. 
+ ! Visit http://www.pragmaticprogrammer.com/titles/eband3 for more book information.
+-->
+<resources>
+    <string name="app_name">Gizmo City</string>
+    <string name="main_title">Gizmo City</string>
+    <string name="puzzles_label">Puzzles</string>
+    <string name="sounds_and_visual_waves_label">Sounds &amp; Visuals</string>
+    <string name="physics_label">Physics</string>
+    <string name="technology_label">Technology</string>
+    <string name="home_label">Home</string>
+    <string name="map_label">Map</string>
+    <string name="settings_label">Settings</string>
+    <string name="back_label">Back</string>
+    <string name="recent_label">Recent</string>
+    <string name="continue_label">Continue</string>
+    <string name="new_game_label">New Game</string>
+    <string name="about_shortcut">About</string>
+    <string name="about_text">About</string>
+    <string name="about_title">Gizmo City</string>
+    <string name="exit_label">Exit</string>
+
+    <string name="waves_title">Sounds and Visual Waves</string>
+    <string name="sound_waves_label">Sounds Waves</string>
+    <string name="visual_waves_label">Visual Waves</string>
+
+    <string name="puzzles_title">Puzzles</string>
+    <string name="green_t_and_six_triangles_label">Green T &amp; Six Triangles</string>
+    <string name="animal_puzzle_label">Animal Puzzle</string>
+    <string name="balancing_nails_label">Balancing Nails</string>
+    <string name="chained_together_label">Chained Together</string>
+    <string name="one_to_eleven_equals_eighteen_label">1 to 11 Equals 18</string>
+    <string name="disc_pyramid_label">Disc Pyramid</string>
+    <string name="two_block_pyramid_label">Two Block Pyramid</string>
+    <string name="tangle_and_untangle_label">Tangle and Untangle</string>
+    <string name="relocate_the_nut_label">Relocate the Nut</string>
+    <string name="blocks_in_box_label">Blocks in Box</string>
+    <string name="number_puzzle_label">Number Puzzle</string>
+    <string name="orange_puzzle_label">Orange Puzzle</string>
+
+    <string name="green_t_label">Green T</string>
+    <string name="six_triangles_label">Six Triangles</string>
+
+
+    <string name="lever_label">Lever</string>
+    <string name="pulleys_label">Pulleys</string>
+    <string name="jacobs_ladder_label">Jacob\'s Ladder</string>
+    <string name="pendulum_label">Pendulum</string>
+    <string name="human_hurricane_label">Human Hurricane</string>
+    <string name="magnets_label">Magnets</string>
+    <string name="racing_balls_label">Racing Balls</string>
+
+
+    <string name="cd_analog_label">CD - Analog</string>
+    <string name="robot_label">Robot</string>
+
+
+    <string name="settings..._label">Settings...</string>
+    <string name="settings_shortcut">s</string>
+    <string name="settings_title">Sudoku settings</string>
+    <string name="music_title">Music</string>
+    <string name="music_summary">Play background music</string>
+    <string name="hints_title">Hints</string>
+    <string name="hints_summary">Show hints during play</string>
+
+    <string name="new_game_title">Difficulty</string>
+    <string name="easy_label">Easy</string>
+    <string name="medium_label">Medium</string>
+    <string name="hard_label">Hard</string>
+
+    <string name="name_button">Hi, + @+id/name</string>
+    <string name="title_activity_x">x</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<string name= "text">\
+    Sudoku is a logic-based number placement puzzle.
+Starting with a partially completed 9x9 grid, the
+objective is to fill the grid so that each
+row, each column, and each of the 3x3 boxes
+(also called <i>blocks</i>) contains the digits
+1 to 9 exactly once.
+</string>
+
+    <string name="green_t_text">\
+    The "Green T" is a super cool great puzzle wow its so awesome
+        please enjoy this text telling you about how awesome it is
+        oh btw heres a fun fact about this awesome puzzle
+        cool super great puzzles more text text type text
+        honestly just put the pieces together this puzzle is
+        pretty easy ok I think this is enough filler
+        text bye.
+        Nope I was wrong I need so much more filler text
+        wow I guess we\'re writing a lot about this
+        little green t so very much words words words
+        anyway this green t is a t and also its green
+        which is why we named it green t honestly arent
+        we super smart and creative wow we are the ideal
+        students to be building an app for the general
+        public thank god for our creativity also the
+        other twelve puzzles dont have names at all
+        but thats okay because they\'re ugly and no-
+        one likes those puzzles also they\'re inadequate
+        okay maybe this will be enough text goodbye
+        ily.
+    </string>
+
+</resources>
+

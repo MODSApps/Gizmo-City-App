@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/puzzlesbackground"
+    android:gravity="center"
+    android:padding="30dip" >
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_gravity="bottom"
+        android:layout_alignBottom="@+id/map_button"
+        android:id="@+id/spaceone"
+        android:visibility="invisible" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_gravity="bottom"
+        android:id="@+id/spacetwo"
+        android:visibility="invisible"
+        android:layout_below="@+id/back_button"
+        android:layout_alignRight="@+id/recent_button" />
+
+
+    <Button
+        android:id="@+id/home_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_label"
+        android:background="#ffcc00"
+        android:textSize="20.5sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="#2f2f2f" />
+
+    <Button
+        android:id="@+id/map_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/map_label"
+        android:background="#ffcc00"
+        android:textSize="20.5sp"
+        android:layout_alignTop="@+id/home_button"
+        android:layout_centerHorizontal="true"
+        android:textColor="#2f2f2f" />
+
+    <Button
+        android:id="@+id/settings_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_label"
+        android:background="#ffcc00"
+        android:textSize="20.5sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#2f2f2f" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_label"
+        android:background="#ffcc00"
+        android:textSize="20.5sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/home_button"
+        android:textColor="#2f2f2f" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/puzzles_logo"
+        android:src="@drawable/mods_arch2"
+        android:layout_alignBottom="@+id/recent_button"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/recent_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recent_label"
+        android:background="#ffcc00"
+        android:textSize="20.5sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/settings_button"
+        android:textColor="#2f2f2f" />
+
+
+
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="550dp"
+        android:id="@+id/scrollView"
+        android:layout_above="@+id/spaceone"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/spacetwo">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/green_t_and_six_triangles_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/greentandsixtrianglesimagebutton"
+                android:background="#00000000"
+                android:layout_marginTop="35dp"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center"
+                android:onClick="clickGreenTandSixTriangles" />
+
+            <ImageButton
+                android:id="@+id/animal_puzzle_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/animalpuzzleimagebutton"
+                android:background="#00000000"
+                android:layout_marginTop="35dp"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/balancing_nails_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/balancingnailsimagebutton"
+                android:background="#00000000"
+                android:layout_marginTop="35dp"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:textColor="#2f2f2f"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/chained_together_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chainedtogetherimagebutton"
+                android:background="#00000000"
+                android:layout_marginTop="35dp"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/one_to_eleven_equals_eighteen_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/onetoelevenequalseighteenimagebutton"
+                android:background="#00000000"
+                android:layout_marginTop="35dp"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/disc_pyramid_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/discpyramidimagebutton"
+                android:background="#00000000"
+                android:layout_marginTop="35dp"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/two_block_pyramid_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/twoblockpyramidimagebutton"
+                android:background="#00000000"
+                android:layout_marginTop="35dp"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/tangle_and_untangle_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tangleanduntangleimagebutton"
+                android:background="#00000000"
+                android:layout_marginTop="35dp"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/relocate_the_nut_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/relocatethenutimagebutton"
+                android:background="#00000000"
+                android:layout_marginTop="35dp"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/blocks_in_box_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/blocksinboximagebutton"
+                android:background="#00000000"
+                android:layout_marginTop="35dp"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/number_puzzle_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/numberpuzzleimagebutton"
+                android:background="#00000000"
+                android:layout_marginTop="35dp"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/orange_puzzle_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/orangepuzzleimagebutton"
+                android:background="#00000000"
+                android:layout_marginTop="35dp"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout><!-- From: file:/C:/Users/JJJJ/Documents/Assignment%203%20-%20GizmoCityApp/Sudokuv11/app/src/main/res/layout/puzzles.xml -->
